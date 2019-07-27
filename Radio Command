@@ -1,1 +1,394 @@
-
+{
+  "name": "radio",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "yizZh",
+  "actions": [
+    {
+      "member": "1",
+      "varName": "",
+      "info": "19",
+      "storage": "1",
+      "varName2": "memvoicechannel",
+      "name": "Store Member Info"
+    },
+    {
+      "storage": "1",
+      "varName": "memvoicechannel",
+      "comparison": "0",
+      "value": "undefined",
+      "iftrue": "0",
+      "iftrueVal": "54",
+      "iffalse": "2",
+      "iffalseVal": "54",
+      "name": "Check Variable"
+    },
+    {
+      "action": "0",
+      "name": "Control Audio"
+    },
+    {
+      "info": "0",
+      "infoIndex": "1",
+      "storage": "1",
+      "varName": "radioname",
+      "name": "Store Command Params"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "name": "Join Voice Channel"
+    },
+    {
+      "storage": "1",
+      "varName": "radioname",
+      "comparison": "2",
+      "value": "iloveradio",
+      "iftrue": "2",
+      "iftrueVal": "15",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "radioname",
+      "comparison": "2",
+      "value": "ilovegreatesthits",
+      "iftrue": "2",
+      "iftrueVal": "19",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "radioname",
+      "comparison": "2",
+      "value": "ilove2dance",
+      "iftrue": "2",
+      "iftrueVal": "23",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "radioname",
+      "comparison": "2",
+      "value": "iloveradiochill",
+      "iftrue": "2",
+      "iftrueVal": "28",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "radioname",
+      "comparison": "2",
+      "value": "iloveradiodeutschrap",
+      "iftrue": "2",
+      "iftrueVal": "32",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "radioname",
+      "comparison": "2",
+      "value": "iloveradiodeutschpop",
+      "iftrue": "2",
+      "iftrueVal": "36",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "radioname",
+      "comparison": "2",
+      "value": "reyfmoriginal",
+      "iftrue": "2",
+      "iftrueVal": "40",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "radioname",
+      "comparison": "2",
+      "value": "reyfmgaming",
+      "iftrue": "2",
+      "iftrueVal": "44",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "radioname",
+      "comparison": "2",
+      "value": "reyfmcharts",
+      "iftrue": "2",
+      "iftrueVal": "48",
+      "iffalse": "2",
+      "iffalseVal": "52",
+      "name": "Check Variable"
+    },
+    {
+      "url": "http://stream01.iloveradio.de/iloveradio1.mp3",
+      "seek": "0",
+      "volume": "5",
+      "passes": "1",
+      "bitrate": "",
+      "type": "1",
+      "name": "Play URL"
+    },
+    {
+      "volume": "10",
+      "name": "Set Audio Volume"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": ":flag_de: Ok `I Love Radio` wird jetzt in deinem Sprachkanal abgespielt.\n:flag_gb: Ok `I Love Radio` is now playing in your voice channel.",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "url": "http://stream01.iloveradio.de/iloveradio16.mp3",
+      "seek": "0",
+      "volume": "5",
+      "passes": "1",
+      "bitrate": "",
+      "type": "1",
+      "name": "Play URL"
+    },
+    {
+      "volume": "10",
+      "name": "Set Audio Volume"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": ":flag_de: Ok `I Love Greatest Hits` wird jetzt in deinem Sprachkanal abgespielt.\n:flag_gb: Ok `I Love Greatest Hits` is now playing in your voice channel.",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "url": "http://stream01.iloveradio.de/iloveradio2.mp3",
+      "seek": "0",
+      "volume": "5",
+      "passes": "1",
+      "bitrate": "",
+      "type": "1",
+      "name": "Play URL"
+    },
+    {
+      "volume": "10",
+      "name": "Set Audio Volume"
+    },
+    {
+      "amount": "1",
+      "name": "Skip Queue"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": ":flag_de: Ok `I Love to Dance` wird jetzt in deinem Sprachkanal abgespielt.\n:flag_gb: Ok `I Love to Dance` is now playing in your voice channel.",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "url": "http://stream01.iloveradio.de/iloveradio10.mp3",
+      "seek": "0",
+      "volume": "5",
+      "passes": "1",
+      "bitrate": "",
+      "type": "1",
+      "name": "Play URL"
+    },
+    {
+      "volume": "10",
+      "name": "Set Audio Volume"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": ":flag_de: Ok `I Love Radio Chill` wird jetzt in deinem Sprachkanal abgespielt.\n:flag_gb: Ok `I Love Radio Chill` is now playing in your voice channel.",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "url": "http://stream01.iloveradio.de/iloveradio104.mp3",
+      "seek": "0",
+      "volume": "5",
+      "passes": "1",
+      "bitrate": "",
+      "type": "1",
+      "name": "Play URL"
+    },
+    {
+      "volume": "10",
+      "name": "Set Audio Volume"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": ":flag_de: Ok `I Love Radio Deutschrap` wird jetzt in deinem Sprachkanal abgespielt.\n:flag_gb: Ok `I Love Radio Germanrap` is now playing in your voice channel.",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "url": "http://stream01.iloveradio.de/iloveradio105.mp3",
+      "seek": "0",
+      "volume": "5",
+      "passes": "1",
+      "bitrate": "",
+      "type": "1",
+      "name": "Play URL"
+    },
+    {
+      "volume": "10",
+      "name": "Set Audio Volume"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": ":flag_de: Ok `I Love Radio Deutschpop` wird jetzt in deinem Sprachkanal abgespielt.\n:flag_gb: Ok `I Love Radio Germanpop` is now playing in your voice channel.",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "url": "https://listen.reyfm.de/original_128kbps.mp3",
+      "seek": "0",
+      "volume": "5",
+      "passes": "1",
+      "bitrate": "",
+      "type": "1",
+      "name": "Play URL"
+    },
+    {
+      "volume": "10",
+      "name": "Set Audio Volume"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": ":flag_de: Ok `ReyFM Original` wird jetzt in deinem Sprachkanal abgespielt.\n:flag_gb: Ok `ReyFM Original` is now playing in your voice channel.",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "url": "https://listen.reyfm.de/gaming_128kbps.mp3",
+      "seek": "0",
+      "volume": "5",
+      "passes": "1",
+      "bitrate": "",
+      "type": "1",
+      "name": "Play URL"
+    },
+    {
+      "volume": "10",
+      "name": "Set Audio Volume"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": ":flag_de: Ok `ReyFM Gaming` wird jetzt in deinem Sprachkanal abgespielt.\n:flag_gb: Ok `ReyFM Gaming` is now playing in your voice channel.",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "url": "https://listen.reyfm.de/charts_128kbps.mp3",
+      "seek": "0",
+      "volume": "5",
+      "passes": "1",
+      "bitrate": "",
+      "type": "1",
+      "name": "Play URL"
+    },
+    {
+      "volume": "10",
+      "name": "Set Audio Volume"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": ":flag_de: Ok `ReyFM Charts` wird jetzt in deinem Sprachkanal abgespielt.\n:flag_gb: Ok `ReyFM Charts` is now playing in your voice channel.",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": " __**Radios:**__\n\n**Radioname - Radiotag**\n\nI Love Radio - `iloveradio`\nI Love Radio greatest Hit - `ilovegreatesthits`\nI Love to Dance Radio - `ilove2dance`\nI Love Radio & Chill - `iloveradiochill`\nI Love Radio German Rap - `iloveradiodeutschrap`\nI Love Radio German Pop - `iloveradiodeutschpop`\nRey FM Original - `reyfmoriginal`\nRey FM Gaming - `reyfmgaming`\nRey FM Charts - `reyfmcharts`\n\n**v!radio [radiotag]**",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "❌ Du befindest dich in keinem Sprachkanal",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    }
+  ],
+  "comType": "0"
+}
