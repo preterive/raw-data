@@ -1,0 +1,64 @@
+{
+  "name": "onmention",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "YWlKK",
+  "actions": [
+    {
+      "message": "0",
+      "varName": "",
+      "info": "2",
+      "storage": "1",
+      "varName2": "messagetxt",
+      "name": "Store Message Info"
+    },
+    {
+      "info": "1",
+      "find": "de",
+      "storage": "1",
+      "varName": "de",
+      "name": "Find Custom Emoji in Server"
+    },
+    {
+      "info": "1",
+      "find": "gb",
+      "storage": "1",
+      "varName": "gb",
+      "name": "Find Custom Emoji in Server"
+    },
+    {
+      "server": "0",
+      "varName": "",
+      "storage": "1",
+      "varName2": "botmem",
+      "name": "Get Bot as Member"
+    },
+    {
+      "storage": "1",
+      "varName": "messagetxt",
+      "comparison": "5",
+      "value": "tempVars(\"botmem\")",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "1",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "name": "Delete Message"
+    },
+    {
+      "channel": "1",
+      "varName": "",
+      "message": "**Hilfe:**\n\n**User Commands:**\n`r!radio | Zeigt dir alle Radios an / Wenn in deinem Channel ein Radio gespielt wird wird dieses gestoppt\nr!radio [Radio Tag] | Spielt das ausgewählte Radio in deinem Sprachkanal\n@Mention | Schickt dir Privat eine Nachricht mit allen Befehlen`\n",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    }
+  ],
+  "comType": "3"
+}
